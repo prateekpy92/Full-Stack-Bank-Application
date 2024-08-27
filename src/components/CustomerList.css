@@ -1,0 +1,74 @@
+/* General container for the dashboard */
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Table styling */
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.customer-table th, .customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.customer-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.customer-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.customer-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination controls styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-button {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.page-button:hover {
+    background-color: #f0f0f0;
+}
+
+.page-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.page-button:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+.page-button:disabled:hover {
+    background-color: #e9ecef;
+}
